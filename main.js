@@ -1,5 +1,5 @@
 length1 = 0;
-text = "Write Your Costomised 'Text' In The Below Input";
+text = "Write Your Customised 'Text' In The Below Input";
 
 function setup(){
     canvas = createCanvas(300,300);
@@ -20,6 +20,7 @@ function gotPoses(results){
     }
 }
 function draw(){
+    background(rgba(255, 20, 145, 0.807));
     testSize(length1);
     fill("white");
     text(text,50,50);
