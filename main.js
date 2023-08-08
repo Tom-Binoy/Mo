@@ -2,7 +2,7 @@ length1 = 0;
 word = "Write Your Costomised 'Text' In The Below Input";
 
 function setup(){
-    canvas = createCanvas(300,300);
+    canvas = createCanvas(300,600);
     canvas.position(100,100);
     canvas.center();
     
