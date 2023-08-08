@@ -4,6 +4,8 @@ word = "Write Your Costomised 'Text' In The Below Input";
 function setup(){
     canvas = createCanvas(300,300);
     canvas.position(100,100);
+    canvas.center();
+    
     video = createCapture(VIDEO);
 
     Posenet = ml5.poseNet(video, modelLoaded)
